@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow Performance Issues</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Slow Performance</h1>
+
+        <p>Slow performance can be frustrating. Here’s how to troubleshoot and potentially resolve performance issues with your device.</p>
+
+        <!-- Content Block 1: Restart Device -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Restart Your Device</h2>
+                <p>Restarting your device can clear temporary files and stop unnecessary processes that may be slowing it down.</p>
+            </div>
+            <div class="image-section">
+                <img src="restart-system-image.jpg" alt="Restart Device" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Free Up Storage Space -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Free Up Storage Space</h2>
+                <p>Check your storage usage and remove unnecessary files or apps to free up space, which can improve performance.</p>
+            </div>
+            <div class="image-section">
+                <img src="free-up-storage-image.jpg" alt="Free Up Storage" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Close Background Apps -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Close Background Apps</h2>
+                <p>Close apps running in the background that may be using up system resources and affecting performance.</p>
+            </div>
+            <div class="image-section">
+                <img src="background-apps-image.jpg" alt="Close Background Apps" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Check for Software Updates -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Check for Software Updates</h2>
+                <p>Ensure your device's operating system and apps are up-to-date. Updates often include performance improvements and bug fixes.</p>
+            </div>
+            <div class="image-section">
+                <img src="update-software-image.jpg" alt="Check for Updates" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Perform a Factory Reset -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Perform a Factory Reset</h2>
+                <p>If performance issues persist, consider performing a factory reset. This will restore your device to its original settings and remove all data, so back up important files first.</p>
+            </div>
+            <div class="image-section">
+                <img src="factory-reset-image.jpg" alt="Factory Reset" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

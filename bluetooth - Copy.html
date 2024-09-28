@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluetooth Issues</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Bluetooth Issues</h1>
+
+        <p>If you are having trouble with Bluetooth connectivity, follow these steps to troubleshoot the issue.</p>
+
+        <!-- Content Block 1: Enable Bluetooth -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Enable Bluetooth</h2>
+                <p>Ensure Bluetooth is enabled on your device. Check the Bluetooth settings and toggle it on if necessary.</p>
+            </div>
+            <div class="image-section">
+                <img src="enable-bluetooth-image.jpg" alt="Enable Bluetooth" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Pair Device -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Pair Device</h2>
+                <p>Ensure your device is properly paired with the Bluetooth device you are trying to connect. Re-pair the devices if necessary.</p>
+            </div>
+            <div class="image-section">
+                <img src="pair-device-image.jpg" alt="Pair Device" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Check Device Compatibility -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Check Device Compatibility</h2>
+                <p>Make sure the devices you are trying to connect are compatible with each other and within the Bluetooth range.</p>
+            </div>
+            <div class="image-section">
+                <img src="check-compatibility-image.jpg" alt="Check Device Compatibility" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Restart Devices -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Restart Devices</h2>
+                <p>Restart both your device and the Bluetooth device. This can resolve temporary connection issues.</p>
+            </div>
+            <div class="image-section">
+                <img src="restart-devices-image.jpg" alt="Restart Devices" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Update Bluetooth Drivers -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Update Bluetooth Drivers</h2>
+                <p>Ensure your device’s Bluetooth drivers are up-to-date. Outdated drivers can cause connectivity issues.</p>
+            </div>
+            <div class="image-section">
+                <img src="update-drivers-image.jpg" alt="Update Bluetooth Drivers" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Drain Issues</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        /* Image styling */
+        .image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back button styling */
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Battery Drain on Android</h1>
+
+        <p>Battery drain is a common issue faced by Android users. Many factors can cause your device's battery to drain quickly, from software bugs to hardware problems. This guide will help you identify the potential causes of battery drain and provide steps to troubleshoot and solve the issue.</p>
+
+        <!-- Content Block 1: High Brightness -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Screen Brightness Too High</h2>
+                <p>Having your screen brightness set too high can quickly deplete your battery. Reduce the brightness or enable auto-brightness to extend battery life.</p>
+            </div>
+            <div class="image-section">
+                <img src="brightness-image.jpg" alt="Screen Brightness Settings" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Background Apps -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Background Apps Draining Power</h2>
+                <p>Many apps run in the background, consuming battery life. You can manage background apps by going to your phone's settings and disabling background activity for unnecessary apps.</p>
+            </div>
+            <div class="image-section">
+                <img src="background-apps-image.jpg" alt="Background Apps" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Location Services -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. GPS & Location Services</h2>
+                <p>Location services, like GPS, can use significant battery power. If you're not actively using location-based apps, disable GPS to save battery.</p>
+            </div>
+            <div class="image-section">
+                <img src="location-services-image.jpg" alt="GPS Location Services" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Poor Signal -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Poor Signal Strength</h2>
+                <p>When your phone struggles to connect to a cellular network, it uses more battery to maintain a signal. Try using Wi-Fi when possible or switch to airplane mode in areas with poor reception.</p>
+            </div>
+            <div class="image-section">
+                <img src="signal-image.jpg" alt="Poor Signal Strength" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Battery Age -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Aging Battery</h2>
+                <p>If your Android phone is over two years old, the battery may have degraded significantly. Consider replacing the battery if it no longer holds a charge well.</p>
+            </div>
+            <div class="image-section">
+                <img src="battery-replacement-image.jpg" alt="Replacing Battery" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

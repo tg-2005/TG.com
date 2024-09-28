@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Display Output Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>NO DISPLAY OUTPUT TROUBLESHOOT</h1>
+        <p>If your device is turning on but not showing any display output, there could be several possible causes. Follow these steps to troubleshoot and resolve the issue:</p>
+
+        <p><strong>Here are some steps you can take to identify and fix the problem of no display output:</strong></p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Check the Monitor Connection</strong><br>
+                Verify cable connections: Ensure that the monitor cable is properly connected to both the monitor and the computer.<br>
+                Try different cables: If possible, use a different cable (HDMI, DisplayPort, VGA, etc.) to see if the issue is related to the cable.
+                <img src="check-connection-image.jpg" style="width:750px;height:450px; " alt="Check Monitor Connection Image">
+            </li>
+            <li><strong class="list-heading">2. Ensure Monitor Power</strong><br>
+                Check power: Ensure the monitor is powered on, and the power cable is securely connected.<br>
+                Test with another monitor: If you have another monitor available, try connecting it to determine if the issue is with the monitor itself.
+                <img src="monitor-power-image.jpg" style="width:750px;height:450px; " alt="Monitor Power Image">
+            </li>
+            <li><strong class="list-heading">3. Restart the System</strong><br>
+                Reboot the device: A simple restart can resolve many temporary issues that may cause no display output.<br>
+                Reconnect the display after the restart and check for any changes.
+                <img src="restart-system-image.jpg" style="width:750px;height:450px; " alt="Restart System Image">
+            </li>
+            <li><strong class="list-heading">4. Check Graphics Card and Cables</strong><br>
+                Check the graphics card: If you are using a dedicated graphics card, ensure it is properly seated in the PCIe slot.<br>
+                Check power connectors: If your graphics card requires additional power, ensure that all necessary power cables are securely connected.
+                <img src="check-graphics-card-image.jpg" style="width:750px;height:450px; " alt="Check Graphics Card Image">
+            </li>
+            <li><strong class="list-heading">5. Test Different Output Ports</strong><br>
+                Try alternate ports: If your computer has multiple display output ports (HDMI, VGA, etc.), try connecting the monitor to a different port.<br>
+                Test external display: If using a laptop, try connecting it to an external display or projector to check if the issue persists.
+                <img src="alternate-ports-image.jpg" style="width:750px;height:450px; " alt="Test Different Output Ports Image">
+            </li>
+            <li><strong class="list-heading">6. Reset BIOS/CMOS</strong><br>
+                Reset BIOS settings: In some cases, misconfigured BIOS settings can prevent the display from working. Reset the BIOS to default settings.<br>
+                Clear CMOS: You can also reset the CMOS by removing the battery on the motherboard for a few minutes, then reconnecting it.
+                <img src="reset-bios-image.jpg" style="width:750px;height:450px; " alt="Reset BIOS Image">
+            </li>
+            <li><strong class="list-heading">7. Inspect RAM and Other Components</strong><br>
+                Reseat RAM: Sometimes improperly seated RAM can cause boot issues, resulting in no display. Remove and reinstall the RAM modules.<br>
+                Check other components: Ensure that other components like the CPU and motherboard are functioning correctly.
+                <img src="inspect-ram-image.jpg" style="width:750px;height:450px; " alt="Reseat RAM Image">
+            </li>
+        </ul>
+
+        <p>If your display remains non-functional after these steps, you may want to consult a technician or refer to your device's manufacturer for further support.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

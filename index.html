@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Tech Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('bg.jpg') no-repeat center center/cover;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.774);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 42px;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .buttons button {
+            padding: 15px 25px;
+            font-size: 16px;
+            background-color: #99223c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buttons button:hover {
+            background-color: #ee0a0a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Community Tech Support</h1>
+        <h2>Help Center</h2>
+        <div class="buttons">
+           
+            <button onclick="location.href='android.html'">Android Issues</button>
+            <button onclick="location.href='soft.html'">PC Software Issues</button>
+            <button onclick="location.href='project1.html'">PC Hardware Issues</button>
+        </div>
+    </div>
+
+</body>
+</html>

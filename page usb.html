@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Ports Not Working Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>USB PORTS NOT WORKING TROUBLESHOOT</h1>
+        <p>If your USB ports are not functioning, there are several potential causes. Below are steps to troubleshoot and resolve issues with malfunctioning USB ports.</p>
+
+        <p><strong>Follow these steps to determine why your USB ports aren't working and how to fix them:</strong></p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Check the Device Connection</strong><br>
+                Verify connection: Ensure the USB device is securely connected to the port.<br>
+                Test another device: Try connecting a different USB device to the port to rule out device-specific issues.
+                <img src="check-connection-image.jpg" style="width:750px;height:450px; " alt="Check USB Connection Image">
+            </li>
+            <li><strong class="list-heading">2. Inspect for Physical Damage</strong><br>
+                Check the USB port: Look for any physical damage inside the port, like bent pins or debris.<br>
+                Clean the port: Use a can of compressed air to gently blow out any dust or debris from the USB port.
+                <img src="inspect-damage-image.jpg" style="width:750px;height:450px; " alt="Inspect Physical Damage Image">
+            </li>
+            <li><strong class="list-heading">3. Restart Your Computer</strong><br>
+                Reboot the system: Sometimes, simply restarting your computer can fix a malfunctioning USB port, as it refreshes the drivers and connections.<br>
+                Reconnect after reboot: After the computer has restarted, reconnect your USB device to check if the issue is resolved.
+                <img src="restart-computer-image.jpg" style="width:750px;height:450px; " alt="Restart Computer Image">
+            </li>
+            <li><strong class="list-heading">4. Update or Reinstall USB Drivers</strong><br>
+                Check device manager: Open Device Manager (on Windows) or System Information (on macOS) to check for any issues with the USB drivers.<br>
+                Reinstall drivers: If there’s a problem, uninstall the driver, and restart the system to let it reinstall automatically, or manually update the driver.
+                <img src="update-drivers-image.jpg" style="width:750px;height:450px; " alt="Update USB Drivers Image">
+            </li>
+            <li><strong class="list-heading">5. Disable USB Selective Suspend</strong><br>
+                Change power settings: On Windows, go to Power Options and disable "USB Selective Suspend." This can prevent the system from turning off the USB port to save power.<br>
+                Test again: After adjusting this setting, reconnect your USB device to check if the issue is fixed.
+                <img src="disable-suspend-image.jpg" style="width:750px;height:450px; " alt="Disable USB Suspend Image">
+            </li>
+            <li><strong class="list-heading">6. Use a Different Port</strong><br>
+                Test other ports: If one port isn’t working, try using another USB port on your computer. Sometimes, individual ports may fail while others still work.<br>
+                Use a USB hub: If multiple ports are non-functional, consider using an external USB hub to connect your devices.
+                <img src="use-different-port-image.jpg" style="width:750px;height:450px; " alt="Use Different Port Image">
+            </li>
+            <li><strong class="list-heading">7. Check for Firmware or BIOS Updates</strong><br>
+                Firmware updates: Occasionally, firmware or BIOS updates from the manufacturer can address hardware compatibility issues with USB ports.<br>
+                Check for updates: Visit the manufacturer’s website to check for any updates for your motherboard or system firmware.
+                <img src="firmware-update-image.jpg" style="width:750px;height:450px; " alt="Check Firmware or BIOS Updates Image">
+            </li>
+        </ul>
+
+        <p>If your USB ports continue to malfunction after following these steps, consider contacting a technician or the device's manufacturer for further assistance. Regularly updating drivers and firmware can prevent such issues.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

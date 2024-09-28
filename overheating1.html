@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overheating Issues</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Overheating Issues</h1>
+
+        <p>Overheating can cause significant issues with your device's performance and longevity. Here’s how to troubleshoot and address overheating problems.</p>
+
+        <!-- Content Block 1: Ensure Proper Ventilation -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Ensure Proper Ventilation</h2>
+                <p>Ensure that your device's vents are not blocked. Use it on a hard, flat surface and consider using a cooling pad to improve airflow.</p>
+            </div>
+            <div class="image-section">
+                <img src="ventilation-image.jpg" alt="Proper Ventilation" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Close Unnecessary Apps -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Close Unnecessary Apps</h2>
+                <p>Running too many applications can cause overheating. Close unused apps and check for background processes that may be consuming excessive resources.</p>
+            </div>
+            <div class="image-section">
+                <img src="close-programs-image.jpg" alt="Close Unnecessary Apps" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Update Software -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Update Software</h2>
+                <p>Make sure your device's operating system and apps are up-to-date. Updates often include performance improvements and bug fixes that can reduce overheating.</p>
+            </div>
+            <div class="image-section">
+                <img src="update-software-image.jpg" alt="Update Software" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Check for Malware -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Check for Malware</h2>
+                <p>Malware can cause your device to overheat by using excessive resources. Run a security scan to ensure your device is not infected.</p>
+            </div>
+            <div class="image-section">
+                <img src="malware-scan-image.jpg" alt="Check for Malware" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Clean Dust and Debris -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Clean Dust and Debris</h2>
+                <p>Dust accumulation can block vents and hinder cooling. Clean the device’s exterior and internal components if you’re comfortable doing so, or have it serviced.</p>
+            </div>
+            <div class="image-section">
+                <img src="clean-fans-image.jpg" alt="Clean Dust" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

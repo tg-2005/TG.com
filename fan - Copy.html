@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Noise Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FAN NOISE TROUBLESHOOT</h1>
+        <p>Excessive fan noise can be annoying and indicate a potential issue with your laptop or PC. Below are some troubleshooting steps to help you reduce or resolve fan noise.</p>
+
+        <p><strong>Follow these steps to troubleshoot excessive fan noise:</strong></p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Check for Blocked Vents</strong><br>
+                Clear any obstructions: Ensure the laptop or PC's vents are not blocked by dust, debris, or surfaces like bed sheets or carpets.<br>
+                Place the device on a hard, flat surface for better ventilation.
+                <img src="blocked-vents-image.jpg" style="width:750px;height:500px;" alt="Blocked Vents Image">
+            </li>
+            <li><strong class="list-heading">2. Clean the Fans</strong><br>
+                Dust accumulation: Dust buildup inside the fans can cause them to work harder, leading to louder noise.<br>
+                Use compressed air to clean the fans and vents carefully.
+                <img src="clean-fans-image.jpg" style="width:750px;height:500px;" alt="Clean Fans Image">
+            </li>
+            <li><strong class="list-heading">3. Update BIOS and Drivers</strong><br>
+                Update system drivers: Make sure all system drivers, especially for the chipset and graphics card, are up to date.<br>
+                Update BIOS: Manufacturers often release BIOS updates that help optimize fan speed and performance.
+                <img src="oh8.jpg" style="width:750px;height:500px;" alt="Update BIOS and Drivers Image">
+            </li>
+            <li><strong class="list-heading">4. Use Cooling Pads or Stands</strong><br>
+                Improve airflow: Using a laptop cooling pad or stand can significantly reduce internal temperatures, allowing the fans to work less and be quieter.<br>
+                This is especially helpful for laptops prone to overheating.
+                <img src="cooling-pad-image.jpg" style="width:750px;height:500px;" alt="Cooling Pad Image">
+            </li>
+            <li><strong class="list-heading">5. Adjust Power Settings</strong><br>
+                Reduce system load: Adjust your power settings to “Balanced” or “Power Saver” mode to decrease the workload on your processor and GPU.<br>
+                This reduces the amount of heat generated, minimizing the need for fans to run at high speeds.
+                <img src="power-settings-image.jpg" style="width:750px;height:500px;" alt="Adjust Power Settings Image">
+            </li>
+            <li><strong class="list-heading">6. Close Unnecessary Programs</strong><br>
+                Limit running tasks: Running too many applications simultaneously can cause your system to overheat, making the fans work harder.<br>
+                Close any unnecessary background programs and check the task manager to monitor CPU and GPU usage.
+                <img src="close-programs-image.jpg" style="width:750px;height:500px;" alt="Close Programs Image">
+            </li>
+            <li><strong class="list-heading">7. Check for Hardware Issues</strong><br>
+                Faulty fan: In some cases, a malfunctioning fan might be the cause of excessive noise.<br>
+                If the problem persists, consider replacing the fan or consulting a technician to inspect your hardware.
+                <img src="hardware-issue-image.jpg" style="width:750px;height:500px;" alt="Hardware Fan Issue Image">
+            </li>
+        </ul>
+
+        <p>By following these steps, you can significantly reduce the noise generated by your device's fans. If the issue continues, it may be best to consult professional support or consider hardware replacement.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

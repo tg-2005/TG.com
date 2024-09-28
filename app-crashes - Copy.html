@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Crashes</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting App Crashes</h1>
+
+        <p>Experiencing app crashes can be frustrating. Follow these steps to troubleshoot and resolve issues with apps crashing on your device.</p>
+
+        <!-- Content Block 1: Restart App -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Restart the App</h2>
+                <p>Close the app and restart it. This can often resolve temporary issues that cause the app to crash.</p>
+            </div>
+            <div class="image-section">
+                <img src="restart-app-image.jpg" alt="Restart App" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Update the App -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Update the App</h2>
+                <p>Check for updates for the app. Developers often release updates to fix bugs and improve stability.</p>
+            </div>
+            <div class="image-section">
+                <img src="update-app-image.jpg" alt="Update App" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Clear Cache and Data -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Clear Cache and Data</h2>
+                <p>Go to the app settings and clear the cache and data. This can help resolve issues related to corrupted data or excessive cache.</p>
+            </div>
+            <div class="image-section">
+                <img src="clear-cache-image.jpg" alt="Clear Cache and Data" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Check for System Updates -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Check for System Updates</h2>
+                <p>Ensure your device’s operating system is up-to-date. System updates can resolve compatibility issues with apps.</p>
+            </div>
+            <div class="image-section">
+                <img src="system-updates-image.jpg" alt="Check for System Updates" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Reinstall the App -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Reinstall the App</h2>
+                <p>If the app continues to crash, try uninstalling and then reinstalling it. This can resolve issues related to corrupted installation files.</p>
+            </div>
+            <div class="image-section">
+                <img src="reinstall-app-image.jpg" alt="Reinstall App" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

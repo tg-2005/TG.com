@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Drive Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hard Drive Troubleshoot</h1>
+        <p>If your hard drive is showing signs of failure, follow these steps to troubleshoot and recover your data:</p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li>
+                <strong class="list-heading">1. Back Up Your Data (If Possible)</strong><br>
+                Immediately back up: If your hard drive is still accessible but showing signs of failure (e.g., strange noises, frequent crashes, or slow performance), back up your important files as soon as possible to an external drive or cloud storage.<br>
+                Use a bootable USB drive: If your laptop won’t boot, try using a bootable USB drive with a recovery tool (like a Linux live USB) to access the hard drive and copy your files.
+                <img src="backup-data.jpg" style="width:750px;height:450px; " alt="Back Up Your Data Image">
+            </li>
+            <li>
+                <strong class="list-heading">2. Check for Physical Issues</strong><br>
+                Listen for unusual noises: Clicking, grinding, or beeping sounds from the hard drive are often signs of mechanical failure. In this case, it's best to stop using the drive to avoid further damage.<br>
+                Check connections: If you’re comfortable opening your laptop, check that the hard drive’s connections are secure. Loose cables or connectors can cause the drive to malfunction.
+                <img src="physical-issues.jpg" style="width:750px;height:450px; " alt="Check for Physical Issues Image">
+            </li>
+            <li>
+                <strong class="list-heading">3. Try Safe Mode or Boot from an External Drive</strong><br>
+                Boot in Safe Mode: If your laptop crashes frequently, try booting it in Safe Mode to see if the hard drive performs better without additional software running. This can sometimes allow you to back up files.<br>
+                Boot from a live USB or external drive: If the internal drive is failing, you can boot the laptop from an external drive (such as a USB with a live operating system like Linux) and access the data on the internal hard drive for recovery.
+                <img src="safe-mode-external-drive.jpg" style="width:750px;height:450px; " alt="Try Safe Mode or Boot from an External Drive Image">
+            </li>
+            <li>
+                <strong class="list-heading">4. Check for Software Issues</strong><br>
+                Run antivirus/malware scans: Sometimes, malware can cause the hard drive to malfunction. Run a thorough scan to remove any potential threats.<br>
+                Check for file system errors: Corrupted file systems can make the drive seem like it’s failing. Tools like CHKDSK or file system repair utilities can help resolve this.
+                <img src="software-issues.jpg" style="width:750px;height:450px; " alt="Check for Software Issues Image">
+            </li>
+            <li>
+                <strong class="list-heading">5. Clone the Failing Drive</strong><br>
+                Clone the drive: If the hard drive is showing signs of failure but is still accessible, use disk cloning software (e.g., Clonezilla or Macrium Reflect) to clone the entire hard drive to a new one. This allows you to recover your data without losing anything.
+                <img src="clone-drive.jpg" style="width:750px;height:450px; " alt="Clone the Failing Drive Image">
+            </li>
+            <li>
+                <strong class="list-heading">6. Replace the Hard Drive</strong><br>
+                Backup, then replace: If the drive has failed or is near failure, and you've backed up your data, the best solution is to replace the hard drive.<br>
+                Install a new drive: You can either replace the hard drive with a new HDD (hard disk drive) or upgrade to an SSD (solid-state drive) for better performance.<br>
+                Reinstall the OS: Once the new drive is installed, you will need to reinstall your operating system and restore your data from the backup.
+                <img src="replace-hard-drive.jpg" style="width:750px;height:450px; " alt="Replace the Hard Drive Image">
+            </li>
+            <li>
+                <strong class="list-heading">7. Consult a Professional</strong><br>
+                Data recovery service: If the drive is completely inaccessible, and you have critical data on it, consult a professional data recovery service. They have specialized tools and equipment to recover data from failed drives.
+                <img src="professional-recovery.jpg" style="width:750px;height:450px; " alt="Consult a Professional Image">
+            </li>
+            <li>
+                <strong class="list-heading">8. Use a Cloud Backup Solution (Preventive Measure)</strong><br>
+                Set up automatic backups: To prevent data loss in the future, regularly back up your files to the cloud or an external hard drive. Services like Google Drive, OneDrive, or Dropbox can automatically back up your important data.
+                <img src="cloud-backup.webp" style="width:750px;height:450px; " alt="Use a Cloud Backup Solution Image">
+            </li>
+            <li>
+                <strong class="list-heading">9. Use an SSD (Upgrade Option)</strong><br>
+                Upgrade to SSD: If replacing your hard drive, consider upgrading to an SSD (solid-state drive). SSDs are faster, more reliable, and less prone to physical damage since they have no moving parts compared to traditional HDDs.
+                <img src="upgrade-ssd.png" style="width:750px;height:450px; " alt="Use an SSD Image">
+            </li>
+        </ul>
+
+        <p>By following these steps, you can often recover your data or fix a malfunctioning hard drive. If the hard drive is completely dead, replacement is typically the only solution.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Issues</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Storage Issues</h1>
+
+        <p>Storage issues can hinder your device's performance. Here’s how to resolve common storage-related problems.</p>
+
+        <!-- Content Block 1: Check Storage Usage -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Check Storage Usage</h2>
+                <p>Monitor your storage usage to see what is taking up space. Remove or transfer files as needed to free up space.</p>
+            </div>
+            <div class="image-section">
+                <img src="check-storage-image.jpg" alt="Check Storage Usage" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Delete Unnecessary Files -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Delete Unnecessary Files</h2>
+                <p>Remove old files, unused apps, and other data that you no longer need. Use built-in tools to clear temporary files and caches.</p>
+            </div>
+            <div class="image-section">
+                <img src="delete-files-image.jpg" alt="Delete Unnecessary Files" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Use Cloud Storage -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Use Cloud Storage</h2>
+                <p>Consider moving files to cloud storage to free up space on your device. Services like Google Drive, Dropbox, or iCloud can be useful.</p>
+            </div>
+            <div class="image-section">
+                <img src="cloud-storage-image.jpg" alt="Use Cloud Storage" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Expand Storage -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Expand Storage</h2>
+                <p>If possible, expand your device’s storage with an SD card or external drive. This can provide additional space for your files and apps.</p>
+            </div>
+            <div class="image-section">
+                <img src="expand-storage-image.jpg" alt="Expand Storage" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Factory Reset (Last Resort) -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Factory Reset (Last Resort)</h2>
+                <p>If storage issues persist, a factory reset may be necessary. Ensure all important data is backed up before performing a reset.</p>
+            </div>
+            <div class="image-section">
+                <img src="factory-reset-image.jpg" alt="Factory Reset" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

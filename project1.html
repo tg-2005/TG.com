@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Page</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('bg1.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Container styling */
+        .container {
+            background-color: rgba(255, 255, 255, 0.85); /* Increased transparency */
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            width: 100%;
+            max-width: 900px; /* Increased width */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        /* Style for the button grid */
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px; /* Increased gap between buttons */
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        /* Congruent button style */
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Increased padding */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px; /* Increased font size */
+            height: 80px; /* Increased height for bigger buttons */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Back button centered below the grid */
+        .back-button {
+            padding: 20px; /* Increased padding */
+            background-color: #f44336;
+            font-size: 20px;
+            width: 250px; /* Adjusted width to be larger */
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive styling */
+        @media (max-width: 600px) {
+            .button-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button, .back-button {
+                font-size: 16px;
+                padding: 15px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>COMPUTER HARDWARE ISSUES</h1>
+        <!-- Button grid 3x3 layout -->
+        <div class="button-grid">
+            <a href="overheating.html" class="button">OVERHEATING</a>
+            <a href="page2.html" class="button">LOOSE CABLES</a>
+            <a href="page up.html" class="button">UNRESPONSIVE POWER BUTTON</a>
+            <a href="page ram.html" class="button">RAM ISSUES</a>
+            <a href="page hd.html" class="button">HARD DRIVE FAILURE</a>
+            <a href="page usb.html" class="button">USB PORTS NOT WORKING</a>
+            <a href="no display.html" class="button">NO DISPLAY OUTPUT</a>
+            <a href="key.html" class="button">KEYBOARD/MOUSE MALFUNCTION</a>
+            <a href="fan.html" class="button">FAN NOISE</a>
+        </div> 
+
+        <a href="javascript:history.back()" class="button back-button">Back</a>
+    </div>
+
+</body>
+</html>

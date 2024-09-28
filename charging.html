@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charging Problems</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting Charging Problems</h1>
+
+        <p>If your device is not charging properly, follow these steps to troubleshoot common charging issues.</p>
+
+        <!-- Content Block 1: Check Charger and Cable -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Check Charger and Cable</h2>
+                <p>Ensure that the charger and cable are in good condition and properly connected. Replace any damaged cables or chargers.</p>
+            </div>
+            <div class="image-section">
+                <img src="check-charger-cable-image.jpg" alt="Check Charger and Cable" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Inspect Charging Port -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Inspect Charging Port</h2>
+                <p>Examine the charging port for any debris or damage. Clean the port carefully if necessary.</p>
+            </div>
+            <div class="image-section">
+                <img src="inspect-charging-port-image.jpg" alt="Inspect Charging Port" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Try Different Charger -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Try a Different Charger</h2>
+                <p>Use a different charger to see if the issue is with the charger itself. Ensure the charger is compatible with your device.</p>
+            </div>
+            <div class="image-section">
+                <img src="try-different-charger-image.jpg" alt="Try Different Charger" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Restart Device -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Restart Device</h2>
+                <p>Restart your device to resolve any temporary software issues that might be affecting charging.</p>
+            </div>
+            <div class="image-section">
+                <img src="restart-device-image.jpg" alt="Restart Device" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Check for Software Updates -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Check for Software Updates</h2>
+                <p>Ensure your device’s software is up-to-date. Software updates can fix bugs related to charging.</p>
+            </div>
+            <div class="image-section">
+                <img src="check-software-updates-image.jpg" alt="Check for Software Updates" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cable Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Added for positioning the button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        }
+
+        /* Back button styling */
+        .back-button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CABLE TROUBLESHOOT</h1>
+        <p>Cable issues can disrupt your workflow and device functionality. Follow these steps to troubleshoot common cable-related problems:</p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Power Cable Issues</strong><br>
+                Inspect the connector: Ensure the power cable is firmly plugged into both the laptop and the power outlet. If the connector is loose, check for debris or damage on the plug and port.<br>
+                Replace the adapter: If the connector is worn out or bent, you might need to replace the charger or the adapter cable.<br>
+                Secure with electrical tape: Temporarily, you can use electrical tape to hold the plug in place if it's slightly loose.
+                <img src="lose1.jpg" style="width:750px;height:450px; " alt="Power Cable Issues Image">
+            </li>
+            <li><strong class="list-heading">2. Loose Display Cable (for Screen Flickering/Disconnection)</strong><br>
+                Professional repair: If you're not experienced with hardware, it's best to take the laptop to a repair center to have the cable inspected and tightened.
+                <img src="loose-display-cable-image.png" style="width:750px;height:450px; " alt="Loose Display Cable Image">
+            </li>
+            <li><strong class="list-heading">3. Cable Tie or Organizer</strong><br>
+                Use cable organizers: To prevent external cables (such as power or peripheral cables) from loosening due to movement, you can use cable ties or cable management clips to secure the cables in place and reduce strain on the connectors.
+                <img src="cable-organizer-image.jpg" style="width:750px;height:450px; " alt="Cable Organizer Image">
+            </li>
+        </ul>
+
+        <p>Regularly check your cables for damage, ensure they are properly connected, and use cable management solutions to keep everything in order. For more detailed instructions, refer to the troubleshooting guide provided.</p>
+        
+        <!-- Back Button -->
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unresponsive Power Button Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNRESPONSIVE POWER BUTTON TROUBLESHOOT</h1>
+        <p>If your laptop or device isn't turning on when you press the power button, there may be several reasons for this issue. Follow the steps below to troubleshoot the unresponsive power button and get your device working again:</p>
+
+        <p><strong>Check these potential causes and solutions for an unresponsive power button:</strong></p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Check the Power Source</strong><br>
+                Ensure the power cord is properly connected: If your device is not turning on, the first thing to check is if the power cord or adapter is securely plugged into both the device and the power outlet.<br>
+                Check the outlet: Try plugging the device into a different outlet to rule out the possibility of a faulty power source.
+                <img src="check-power-source-image.jpg" style="width:750px;height:450px; " alt="Check Power Source Image">
+            </li>
+            <li><strong class="list-heading">2. Perform a Hard Reset</strong><br>
+                Disconnect the power: Remove the battery (if applicable) and unplug the power adapter. Hold the power button for 15-30 seconds to discharge any residual power.<br>
+                Reconnect the power: Plug the adapter back in, and try turning on the device again.
+                <img src="hard-reset-image.jpg" style="width:750px;height:450px; " alt="Hard Reset Image">
+            </li>
+            <li><strong class="list-heading">3. Inspect the Power Button</strong><br>
+                Check for physical damage: Inspect the power button for any visible damage or debris that might be preventing it from functioning correctly. You can gently clean around it with a soft brush.<br>
+                Test the button: If the button feels stuck, you may need to take it to a professional to check for internal damage.
+                <img src="inspect-power-button-image.jpg" style="width:750px;height:450px; " alt="Inspect Power Button Image">
+            </li>
+            <li><strong class="list-heading">4. Test with External Power</strong><br>
+                Use an external power source: If you have a laptop, try running it directly off the AC power without the battery installed. This can help determine whether the battery or the power button is causing the issue.
+                <img src="external-power-image.jpg" style="width:750px;height:450px; " alt="External Power Image">
+            </li>
+            <li><strong class="list-heading">5. Check for Short Circuits</strong><br>
+                Disconnect peripherals: If the power button still isn't working, disconnect all external devices like USBs, external hard drives, or accessories, and try again. Sometimes, external devices can cause a short circuit or prevent the system from powering on.
+                <img src="check-short-circuits-image.jpg" style="width:750px;height:450px; " alt="Check Short Circuits Image">
+            </li>
+            <li><strong class="list-heading">6. Inspect for Power Delivery Issues</strong><br>
+                Check the charging port: Ensure that the charging port is not damaged or loose. If the power connector is damaged, the device may not receive power properly.<br>
+                Replace faulty parts: If the issue is with the power port or adapter, it may need to be replaced.
+                <img src="inspect-charging-port-image.png" style="width:750px;height:450px; " alt="Inspect Charging Port Image">
+            </li>
+            <li><strong class="list-heading">7. Reset BIOS Settings</strong><br>
+                Reset the BIOS: Sometimes, the BIOS can prevent the system from turning on due to incorrect configurations. Resetting the BIOS to default settings might resolve the issue.
+                <img src="update-bios.jpg" style="width:750px;height:450px; " alt="BIOS Reset Image">
+            </li>
+        </ul>
+
+        <p>Make sure to check for any hardware or software issues carefully, and if none of the steps work, consider consulting a professional technician for further assistance.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>

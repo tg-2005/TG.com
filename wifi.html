@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Connectivity Issues</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container styling */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .content-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Troubleshooting WiFi Connectivity Issues</h1>
+
+        <p>If you're having trouble connecting to WiFi, follow these troubleshooting steps to resolve common connectivity issues.</p>
+
+        <!-- Content Block 1: Check WiFi Toggle -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>1. Check WiFi Toggle</h2>
+                <p>Ensure that WiFi is enabled on your device. Sometimes, the WiFi toggle might be turned off inadvertently.</p>
+            </div>
+            <div class="image-section">
+                <img src="wifi-toggle-image.jpg" alt="Check WiFi Toggle" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 2: Restart Router -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>2. Restart Router</h2>
+                <p>Restart your WiFi router by unplugging it for about 30 seconds and then plugging it back in. This can resolve many connectivity issues.</p>
+            </div>
+            <div class="image-section">
+                <img src="restart-router-image.jpg" alt="Restart Router" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 3: Forget and Reconnect to Network -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>3. Forget and Reconnect to Network</h2>
+                <p>Go to your device’s WiFi settings, forget the network, and then reconnect by entering the password again.</p>
+            </div>
+            <div class="image-section">
+                <img src="forget-reconnect-image.jpg" alt="Forget and Reconnect" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 4: Check for Interference -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>4. Check for Interference</h2>
+                <p>Ensure there are no physical obstructions or electronic devices causing interference with your WiFi signal.</p>
+            </div>
+            <div class="image-section">
+                <img src="check-interference-image.jpg" alt="Check for Interference" class="image">
+            </div>
+        </div>
+
+        <!-- Content Block 5: Update Device and Router Firmware -->
+        <div class="content-block">
+            <div class="text-section">
+                <h2>5. Update Device and Router Firmware</h2>
+                <p>Ensure that your device and router have the latest firmware updates. Updates can fix bugs and improve performance.</p>
+            </div>
+            <div class="image-section">
+                <img src="update-firmware-image.jpg" alt="Update Firmware" class="image">
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center;">
+            <a href="javascript:history.back()" class="back-button">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

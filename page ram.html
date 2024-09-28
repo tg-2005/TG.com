@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>RAM TROUBLESHOOT</h1>
+        <p>Experiencing issues with your RAM can cause significant performance problems. Follow these steps to troubleshoot and resolve RAM-related issues:</p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li>
+                <strong class="list-heading">1. Restart Your Laptop</strong><br>
+                Simple reboot: Sometimes, temporary memory issues can be resolved by a simple restart. This clears the RAM and can help restore performance.
+                <img src="restart-laptop.png"style="width:750px;height:450px;"alt="Restart Your Laptop Image">
+            </li>
+            <li>
+                <strong class="list-heading">2. Check for Software Issues</strong><br>
+                Close unnecessary programs: Running too many applications can overload your RAM. Close any unnecessary programs, especially resource-heavy ones like video editors or large spreadsheets.<br>
+                Update drivers and OS: Outdated drivers or an old operating system can cause memory management issues. Ensure your OS and drivers are up to date.
+                <img src="software-issues.jpg" style="width:750px;height:450px;"alt="Check for Software Issues Image">
+            </li>
+            <li>
+                <strong class="list-heading">3. Test RAM with Diagnostic Tools</strong><br>
+                Use Windows Memory Diagnostic Tool:<br>
+                Press Windows + R, type mdsched.exe, and press Enter.<br>
+                Choose "Restart now and check for problems" to let the tool run. It will restart the system and check for RAM issues.<br>
+                If any problems are found, the tool will notify you.<br>
+                Use third-party tools: You can also use tools like MemTest86 to run a thorough RAM diagnostic.
+                <img src="diagnostic-tools.jpg"style="width:750px;height:450px;"alt="Test RAM with Diagnostic Tools Image">
+            </li>
+            <li>
+                <strong class="list-heading">4. Check for RAM Compatibility Issues</strong><br>
+                Check system specifications: If you’ve recently upgraded the RAM, ensure that the new RAM is compatible with your laptop (correct type, speed, and capacity). Laptops have limits on the amount of RAM they can support.<br>
+                Use matching RAM sticks: Mixing different RAM brands or speeds can sometimes cause issues. If possible, use identical RAM sticks (same manufacturer, size, and speed).
+                <img src="ram-compatibility.jpg"style="width:750px;height:450px;" alt="Check for RAM Compatibility Issues Image">
+            </li>
+            <li>
+                <strong class="list-heading">5. Upgrade or Replace RAM</strong><br>
+                Upgrade the RAM: If your laptop is slow due to limited RAM (e.g., 4GB or less), upgrading to more RAM can significantly improve performance. Ensure your laptop supports the upgrade and purchase compatible RAM.<br>
+                Replace faulty RAM: If you’ve run diagnostics and one of the RAM sticks is faulty, replace it with a new, compatible module.
+                <img src="upgrade-replace-ram.jpg"style="width:750px;height:450px;" alt="Upgrade or Replace RAM Image">
+            </li>
+            <li>
+                <strong class="list-heading">6. Check for Overheating</strong><br>
+                Ensure proper ventilation: Overheating can cause RAM errors. Ensure your laptop’s vents are not blocked and use a cooling pad if necessary.<br>
+                Clean the laptop: Dust buildup can cause heat, so use compressed air to clean the vents and fans.
+                <img src="check-overheating.jpg" style="width:750px;height:450px;"alt="Check for Overheating Image">
+            </li>
+            <li>
+                <strong class="list-heading">7. Update the BIOS</strong><br>
+                Check for BIOS updates: Sometimes, a BIOS update can improve RAM compatibility and system stability. Check your laptop manufacturer's website for BIOS updates and follow their instructions carefully.
+                <img src="update-bios.jpg" style="width:750px;height:450px;"alt="Update the BIOS Image">
+            </li>
+            <li>
+                <strong class="list-heading">8. Test with One Stick at a Time (If You Have Multiple RAM Sticks)</strong><br>
+                Isolate faulty RAM: If you have multiple RAM sticks, remove one stick and try booting the laptop. Alternate between the sticks to see if one of them is causing the issue. If one stick works but the other doesn't, the faulty stick should be replaced.
+                <img src="test-ram-sticks.jpg" style="width:750px;height:450px;"alt="Test with One Stick at a Time Image">
+            </li>
+            <li>
+                <strong class="list-heading">9. Professional Assistance</strong><br>
+                If none of the above solutions work, the problem could be with the motherboard or memory controller. In this case, it’s best to consult a professional technician for further diagnosis.
+                <img src="professional-assistance.jpg"style="width:750px;height:450px;" alt="Professional Assistance Image">
+            </li>
+        </ul>
+
+        <p>Following these steps should help in diagnosing and resolving RAM issues. For more detailed instructions, refer to the troubleshooting guide provided.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>
