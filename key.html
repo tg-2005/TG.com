@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard/Mouse Malfunction Troubleshoot</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-height: 100vh; /* Ensure the body covers the full viewport height */
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            position: relative; /* Allows positioning of the back button */
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh; /* Ensure there's enough space for content and button */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved readability */
+        }
+
+        /* Image styling */
+        .media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* List heading styling */
+        .list-heading {
+            font-size: 24px; /* Adjust the size as needed */
+            color: #333;
+            font-weight: bold;
+        }
+  
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list-heading {
+                font-size: 20px; /* Adjust the size for smaller screens */
+            }
+        } 
+
+        /* Back button styling */
+        .back-button {
+            margin-top: auto; /* Pushes the button to the bottom of the container */
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>KEYBOARD/MOUSE MALFUNCTION TROUBLESHOOT</h1>
+        <p>Experiencing issues with your keyboard or mouse can be frustrating, but many problems have simple fixes. Follow the steps below to troubleshoot and resolve any keyboard or mouse malfunctions.</p>
+
+        <p><strong>Here are some steps you can take to solve the issue of malfunctioning keyboard or mouse:</strong></p>
+
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li><strong class="list-heading">1. Check the Physical Connection</strong><br>
+                Verify cable connection: Ensure the keyboard or mouse is properly connected to the USB port.<br>
+                Try a different USB port: Switch the connection to another port to see if the issue is with the port itself.
+                <img src="check-connection-image.jpg" style="width:750px;height:500px;" alt="Check Connection Image">
+            </li>
+            <li><strong class="list-heading">2. Test with Another Device</strong><br>
+                Test the keyboard/mouse: Connect your device to another computer or laptop to see if it works properly there.<br>
+                This helps determine if the issue is with the device or the computer.
+                <img src="test-on-other-device-image.jpg" style="width:750px;height:500px;" alt="Test on Other Device Image">
+            </li>
+            <li><strong class="list-heading">3. Check for Driver Updates</strong><br>
+                Update drivers: Outdated or corrupted drivers can cause malfunctions. Go to the device manager and check if there are any updates available for your keyboard or mouse drivers.
+                <img src="driver-update-image.jpg" style="width:750px;height:500px;" alt="Driver Update Image">
+            </li>
+            <li><strong class="list-heading">4. Restart the Computer</strong><br>
+                Restart your system: Sometimes a simple restart can resolve the issue.<br>
+                Reconnect the keyboard/mouse after the reboot to check for any improvements.
+                <img src="restart-system-image.jpg" style="width:750px;height:500px;" alt="Restart System Image">
+            </li>
+            <li><strong class="list-heading">5. Clean the Device</strong><br>
+                Clean the keyboard/mouse: Dust or debris can cause issues with keypresses or mouse clicks.<br>
+                Use compressed air or a soft cloth to clean the keyboard or mouse carefully.
+                <img src="clean-device-image.jpg" style="width:750px;height:500px;" alt="Clean Keyboard/Mouse Image">
+            </li>
+            <li><strong class="list-heading">6. Check for Software Interference</strong><br>
+                Disable conflicting software: Some software, such as custom keyboard or mouse drivers, can interfere with standard functionality. Try disabling or uninstalling such software to see if it resolves the problem.
+                <img src="check-software-image.jpg" style="width:750px;height:500px;" alt="Software Interference Image">
+            </li>
+            <li><strong class="list-heading">7. Replace the Device</strong><br>
+                Replace keyboard or mouse: If the above solutions don’t work, it might be time to replace the malfunctioning device, especially if it's worn out or damaged.<br>
+                Always test with a different keyboard/mouse to ensure the issue isn’t with the computer.
+                <img src="replace-device-image.jpg" style="width:750px;height:500px;" alt="Replace Keyboard/Mouse Image">
+            </li>
+        </ul>
+
+        <p>If your keyboard or mouse continues to malfunction, you may want to contact technical support or consult your device's manufacturer for further assistance.</p>
+        <button class="back-button" onclick="history.back()">Back</button>
+    </div>
+
+</body>
+</html>
